@@ -1,9 +1,29 @@
 import React from 'react';
 
-const Form = () => {
+import './Form.css';
+
+import {
+    Button,
+    Form,
+    FormGroup,
+    Label,
+    Input,
+    FormText
+} from 'reactstrap';
+
+const PizzaForm = () => {
     return (
-        <h1>Form goes here...</h1>
+        <Form>
+            <section className='input-group-header'>
+                <h2>Choice of Size</h2>
+                <h3>Required</h3>
+            </section>
+            <FormGroup>
+                <Label for='size' />
+                <Input type="select" id='size' name='size' />
+            </FormGroup>
+        </Form>
     );
 };
 
-export default Form;
+export default PizzaForm;
