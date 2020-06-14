@@ -24,9 +24,13 @@
     font-size: 1rem;
 }
 
-.form-check-label{
-    margin-bottom: 5px;
+.form-check{
+    margin-left: 20px;
 }
+
+/* .form-check-label{
+    margin-bottom: 5px;
+} */
 
 .form-check-input{
     margin-left: -1.8rem;
@@ -34,5 +38,5 @@
 
 .col, .form-group{
     margin-bottom: 2rem;
-    padding: 10px 20px;
+    padding: 10px 20px 10px 5px;
 }
