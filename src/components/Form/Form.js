@@ -22,6 +22,10 @@ const PizzaForm = () => {
                 <Label for='size' />
                 <Input type="select" id='size' name='size' />
             </FormGroup>
+            <section className='input-group-header'>
+                <h2>Choice of Size</h2>
+                <h3>Required</h3>
+            </section>
         </Form>
     );
 };
