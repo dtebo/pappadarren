@@ -1,6 +1,7 @@
 .pizza-form{
     border: 1px solid #c0c0c0;
     margin: 15px 0;
+    font-size: 1.2rem;
 }
 
 .input-group-header{
@@ -8,7 +9,7 @@
     color: #f3f3f3;
     width: 100%;
     padding: 2px 0 2px 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .input-group-header h2, .input-group-header h3{
@@ -21,4 +22,17 @@
 
 .input-group-header h3{
     font-size: 1rem;
+}
+
+.form-check-label{
+    margin-bottom: 5px;
+}
+
+.form-check-input{
+    margin-left: -1.8rem;
+}
+
+.col, .form-group{
+    margin-bottom: 2rem;
+    padding: 10px 20px;
 }
