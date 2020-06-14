@@ -24,13 +24,23 @@
     font-size: 1rem;
 }
 
+.total-section{
+    border: 1px solid #aaaaaa;
+    width: 100%;
+}
+
+.total-section button, .total-section input[type='number']{
+    margin-top: 10px;
+}
+
+.total-section .row{
+    width: 100%;
+    padding-left: 10px;
+}
+
 .form-check{
     margin-left: 20px;
 }
-
-/* .form-check-label{
-    margin-bottom: 5px;
-} */
 
 .form-check-input{
     margin-left: -1.8rem;

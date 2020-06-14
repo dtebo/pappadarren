@@ -166,6 +166,21 @@ const PizzaForm = () => {
             <section className='input-group-header'>
                 <h2>Special Instructions</h2>
             </section>
+            <FormGroup>
+                <Input type='text' id='special-instructions' placeholder="Anything else you'd like to add?" />
+            </FormGroup>
+            <section className='total-section'>
+                <Row>
+                    <Col md={8}>
+                        <FormGroup>
+                            <Input type='number' name='number' id='number' placeholder='0' bsSize='lg' />
+                        </FormGroup>
+                    </Col>
+                    <Col>
+                        <Button type='submit' size='lg'>Add to Order    $0.00</Button>
+                    </Col>
+                </Row>
+            </section>
         </Form>
     );
 };
