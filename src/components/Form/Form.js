@@ -13,7 +13,7 @@ import {
 
 const PizzaForm = () => {
     return (
-        <Form>
+        <Form className='pizza-form'>
             <section className='input-group-header'>
                 <h2>Choice of Size</h2>
                 <h3>Required</h3>

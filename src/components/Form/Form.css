@@ -1,8 +1,24 @@
-.input-group-header{
-    background-color: #aaaaaa;
-    width: 100%;
+.pizza-form{
+    border: 1px solid #c0c0c0;
+    margin: 15px 0;
 }
 
-.input-group-header h1{
+.input-group-header{
+    background-color: #aaaaaa;
+    color: #f3f3f3;
+    width: 100%;
+    padding: 2px 0 2px 15px;
+    margin-bottom: 20px;
+}
+
+.input-group-header h2, .input-group-header h3{
+    margin: 5px 0;
+}
+
+.input-group-header h2{
     font-size: 1.5rem;
+}
+
+.input-group-header h3{
+    font-size: 1rem;
 }
