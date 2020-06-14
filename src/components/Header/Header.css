@@ -1,0 +1,16 @@
+.header{
+    height: 60px;
+    margin-bottom: 50px;
+    background-image: linear-gradient(45deg, #ff5555, #ff8855, #ff9988);
+    font-size: 2rem;
+}
+
+.logo{
+    color: white;
+    padding: 10px 0 0 20px
+}
+
+.logo p{
+    display: inline-block;
+    padding-left: 10px;
+}
